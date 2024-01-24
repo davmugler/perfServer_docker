@@ -20,5 +20,5 @@ Dieses Projekt enthält eine einfache Anwendung namens `perfServer.py`, die eine
    Navigieren Sie zum Verzeichnis, das dieses README.md enthält, und führen Sie den folgenden Befehl aus, um das Docker-Image zu auszuführen:
 
    ```bash
-   docker run -p 1880:1880 perf-server
+   docker run -p --network host 1880:1880 perf-server
 
