@@ -13,4 +13,4 @@ Dieses Projekt enthält eine einfache Anwendung namens `perfServer.py`, die eine
    Navigieren Sie zum Verzeichnis, das dieses README.md enthält, und führen Sie den folgenden Befehl aus, um das Docker-Image zu erstellen:
 
    ```bash
-   docker build -t my-perf-server .
+   docker build -t perf-server .
